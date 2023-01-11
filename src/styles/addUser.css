@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+}
+.addUser{
+    background-color: rgb(226, 176, 176);
+    height: 450px;
+    width: 400px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 50px;
+}
+.from_group input{
+    margin: 15px;
+    height: 30px;
+    width: 300px;
+}
+.from_group button{
+    margin-top: 20px;
+    height: 30px;
+}
+.from_group button:hover{
+    color: white;
+    background-color: brown;
+}
+
+

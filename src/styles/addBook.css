@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+}
+.addBook{
+    background-color: rgb(226, 176, 176);
+    height: 750px;
+    width: 700px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 50px;
+}
+.form input{
+    width: 500px;
+    height: 30px;
+    margin: 5px;
+}
+.form textarea{
+    width: 500px;
+    margin: 5px;
+}
+.form button{
+    margin-top: 10px;
+    height: 30px;
+}
+

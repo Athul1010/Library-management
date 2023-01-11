@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import '../styles/addUser.css'
+
 const AddUser = () => {
 let[name,setName]=useState("")
 let[age,setAge]=useState("")
@@ -25,9 +27,10 @@ let handleSubmit=(e)=>{
 }
 
     return ( 
+
         <div className="addUser">
             <h1>Add a new User</h1>
-                <div className="form from-group">
+                <div className="from_group">
                     <form action="" onSubmit={handleSubmit}>
                         <div className="name">
                             <input type="text" value={name} onChange={(e)=>setName(e.target.value)} placeholder="Enter name" />
@@ -35,7 +38,7 @@ let handleSubmit=(e)=>{
                         <div className="age">
                             <input type="number" value={age} onChange={(e)=>setAge(e.target.value)} min="1" placeholder="enter age"/>
                         </div>
-                        <div className="email">
+                        <div className="userEmail">
                             <input type="email" value={email} onChange={(e)=>setEmail(e.target.value)} placeholder="Enter email" />
                         </div>
                         <div className="phoneNumber">
