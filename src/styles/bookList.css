@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+}
+.book_section{
+    background-color: rgb(206, 186, 186);
+    text-align: center;
+    
+}
+.book{
+    
+    display: inline-block;
+    background-color: white;
+    height: 265px;
+    width: 1250px;
+    text-align: center;
+    margin: 8px 8px;
+    border-radius: 6px;
+    
+
+}
+.raj{
+    display: flex;
+    /* justify-content: space-around; */
+
+}
+.book_desc button{
+    margin: 5px;
+    height: 30px;
+    height: 40px;
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+    border-radius: 3px;
+}
+button:hover{
+    color: white;
+    background-color: orangered;
+}

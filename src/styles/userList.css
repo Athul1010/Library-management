@@ -1,0 +1,12 @@
+body{
+    margin: 0px;
+}
+.user_section{
+    background-color: rgb(189, 156, 156);
+}
+.user{
+    background-color: white;
+    display: inline-block;
+    margin: 8px 8px;
+    width: 500px;
+}

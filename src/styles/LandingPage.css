@@ -1,0 +1,115 @@
+body{ 
+    /* background-color: bisque; */
+    margin: 0px;
+    
+    
+}
+
+.landingpage{
+    background-image: url("https://www.skoolbeep.com/blog/wp-content/uploads/2020/12/BEST-LIBRARY-AUTOMATION-SOFTWARE-min.png");
+    background-size: cover;
+    height: 100vh;
+   
+}
+.home{
+    padding-top: 185px;
+} 
+.selectLoginType{
+    text-align: center;
+    height: 375px;
+    width: 600px;
+    background-color: white;
+   margin-left: 440px;
+   border-radius: 10px;
+   box-shadow: 2px 2px 2px black;
+   
+}
+.selectLoginType h1{
+    margin: 0px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+}
+.btn button{
+    padding:8px 16px ;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    
+    
+}
+.btn1{
+    outline: none;
+    border: 2px solid orange;
+    margin-right: 4px;
+    box-shadow: 2px 2px 2px black;
+    margin: 0px;
+    
+}
+.btn2{
+    border: 2px solid green;
+    
+    margin-right: 4px;
+    box-shadow: 2px 2px 2px black;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    
+}
+.btn1 button:hover{
+    background-color:orange;
+}
+.btn2 button:hover{
+    background-color: green;
+    
+}
+.image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    align-items: center;
+   
+}
+.image img{
+    height: 90px;
+    width:105px ;
+}
+
+/* body{
+    margin: 0px;
+}
+.landingpage{
+    background-image: url("https://www.skoolbeep.com/blog/wp-content/uploads/2020/12/BEST-LIBRARY-AUTOMATION-SOFTWARE-min.png");
+    background-size: cover;
+    height: 100vh;
+}
+.image img{
+    height: 170px;
+    width: 170px;
+}
+/* .btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+} */
+/* .selectLoginType{
+    background-color: white;
+    height: 400px;
+    width: 600px;
+    margin-left: 480px;
+    
+}
+.home{
+   padding: 150px 0px;
+}
+.btn{
+   
+} */ 
